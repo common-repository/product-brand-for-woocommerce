@@ -1,0 +1,104 @@
+/*.owl-theme .owl-nav {
+    margin-top: 75px!important;
+}*/
+button.owl-prev span, button.owl-next span {
+    background-color: #0000002b!important;
+}
+
+.ocpbw_product_brand {
+    width: 100%;
+    display: block;
+}
+.item.wfc_gift_product {
+    text-align: center;
+}
+.wfc_gift_product a {
+    text-decoration: none !important;
+}
+.wfc_gift_product a:hover img {
+    transition: .7s;
+    transform: translateY(-5px);
+}
+.wfc_gift_product a img {
+    transition: .7s;
+}
+.wpb_slider .owl-stage {
+    transition: .7s !important;
+    display: flex;
+    align-items: center;
+}
+
+.Brands_main_div {
+    display: flex;
+    width: 100%;
+    padding: 10px 0;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+label.Brands_title {
+    display: inline-flex;
+    margin-right: 10px;
+}
+.Brands_main_div a,.Brands_main_div_shop a {
+    font-size: 12px;
+    text-align: center;
+    text-decoration: none !important;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    transition: .7s !important;
+}
+.Brands_main_div a:hover {
+    transform: translateY(-5px);
+}
+a.buy-now_oc.button.add_to_cart_button {
+    padding: 5px 13px;
+}
+
+.loop_in_brand ul.products.columns-4 {
+    list-style: none!important;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.loop_in_brand {
+    display: flex;
+}
+.loop_in_brand ul.products.columns-4 li {
+       /* width: 25%!important; */
+    margin: 10px;
+    list-style: none!important;
+
+}
+.loop_in_brand h2.woocommerce-loop-product__title{
+    font-size: 20px;
+}
+.loop_in_brand a.add_to_cart_button {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    padding: 4px 5px;
+    text-decoration: none!important;
+}
+.Brands_main_div_shop {
+    display: inline-block;
+    font-size: 12px;
+    margin: 10px 0px;
+    width: 100%;
+}
+.Brands_main_div_shop a.woocommerce-LoopProduct-link {
+    display: inline-block !important;
+    width: auto !important;
+    color: #000000;
+    cursor: text;
+    pointer-events: none;
+}
+.Brands_main_div_shop a.woocommerce-LoopProduct-link:after {
+    content: none;
+}
+.Brands_main_div_shop label.product_brands {
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 5px;
+}

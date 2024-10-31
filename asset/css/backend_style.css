@@ -1,0 +1,93 @@
+#brands-logo-wrapper img{
+    width: 50px;
+    height: 50px;
+}
+.owl-item.active{
+	height: 262px;
+}
+label.radio_label {
+    vertical-align: top;
+}
+.ocpbrandw_container h2 {
+    background-color: #2271b1;
+    padding: 11px;
+    margin: 0px;
+    color: #fff;
+    border-left: 5px solid #54b2ff;
+}
+.ocpbrandw_container table {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 30px;
+    padding-top: 30px;
+}
+.ocpbrandw_container table tbody {
+    display: inline-block;
+    width: 100%;
+}
+.ocpbrandw_container table.ocpbrandw_table tr {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 30px;
+    vertical-align: top;
+}
+.ocpbrandw_container table tr th {
+    display: inline-block;
+    padding: 0px;
+    width: 25%;
+}
+.ocpbrandw_container table tr td {
+    display: inline-block;
+    padding: 0px;
+    width: 75%;
+}
+.ocpbrandw_container {
+    background: #ffff;
+    width: 99%;
+    display: inline-block;
+    float: left;
+    box-shadow: 0px 0px 10px #ccc;
+}
+.ocpbrandw_container table.ocpbrandw_table tr.item_slider_section {
+    line-height: 3;
+    vertical-align: top;
+}
+.ocpbrandw_container table.ocpbrandw_table tr.item_slider_section td label {
+    margin-left: 10px;
+    font-weight: bold;
+}
+.ocpbrandw_container table tr th strong {
+    font-weight: bold;
+}
+input#ocpbrandw-btn-space {
+    margin: 0px 30px;
+    padding: 3px 25px;
+}
+.ocpbrandw_notes {
+    display: inline-block;
+    width: 100%;
+    margin: 10px 0;
+}
+ul.ocpbrandw_notes_ul {
+    display: inline-block;
+    margin: 0 30px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px #ccc;
+}
+.ocpbrandw_save_options {
+    padding: 20px 0;
+}
+img.pb_rating_div {
+    width: 100px;
+    vertical-align: middle;
+}
+p.oc_desc {
+    display: inline-block;
+    width: 100%;
+    margin: 5px 0px 0px 5px;
+    font-family: monospace;
+    font-style: italic;
+}
